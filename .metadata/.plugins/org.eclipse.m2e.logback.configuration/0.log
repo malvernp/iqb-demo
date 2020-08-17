@@ -552,3 +552,18 @@
 2020-08-17 09:17:42,878 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2020-08-17 09:17:42,879 [Worker-83: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2020-08-17 09:17:42,879 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 10:52:10,836 [Worker-80: Launching Executing install in _Users_malvernpontius_develop_other_iqb-demo_iqb-demo-commons] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-commons
+2020-08-17 10:52:10,842 [Worker-80: Launching Executing install in _Users_malvernpontius_develop_other_iqb-demo_iqb-demo-commons] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install -Dstyle.color=always
+2020-08-17 10:52:12,859 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-17 10:52:12,863 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 10:52:12,864 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-17 10:52:12,865 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 10:52:40,916 [Worker-76: Launching Executing install in _Users_malvernpontius_develop_other_iqb-demo_iqb-demo-consumer] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-consumer
+2020-08-17 10:52:40,916 [Worker-76: Launching Executing install in _Users_malvernpontius_develop_other_iqb-demo_iqb-demo-consumer] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install -Dstyle.color=always
+2020-08-17 10:52:51,893 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 10:52:51,893 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 10:52:51,895 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 10:52:51,896 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 10:52:51,896 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-consumer/src/test/resources
+2020-08-17 10:53:00,430 [Worker-83: Launching Executing install in _Users_malvernpontius_develop_other_iqb-demo_iqb-demo-producer] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer
+2020-08-17 10:53:00,430 [Worker-83: Launching Executing install in _Users_malvernpontius_develop_other_iqb-demo_iqb-demo-producer] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B install -Dstyle.color=always
