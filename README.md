@@ -7,9 +7,7 @@ A simple demo showing the use of RabbitMQ as Message bus between two microservic
 * Docker 
 * Java 8 or later
 * maven 
-```
-Give examples
-```
+
 
 ### Installing
 
