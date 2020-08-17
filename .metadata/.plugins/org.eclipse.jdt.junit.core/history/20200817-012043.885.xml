@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ApplicationIntegrationTests" project="iqb-demo-consumer" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="com.iqb.demo.consumer.ApplicationIntegrationTests" time="0.003" displayname="ApplicationIntegrationTests" uniqueid="[engine:junit-jupiter]/[class:com.iqb.demo.consumer.ApplicationIntegrationTests]">
+    <testcase name="testFormatter" classname="com.iqb.demo.consumer.ApplicationIntegrationTests" time="0.0" displayname="testFormatter()" uniqueid="[engine:junit-jupiter]/[class:com.iqb.demo.consumer.ApplicationIntegrationTests]/[method:testFormatter()]"/>
+    <testcase name="testConsume" classname="com.iqb.demo.consumer.ApplicationIntegrationTests" time="0.0" displayname="testConsume()" uniqueid="[engine:junit-jupiter]/[class:com.iqb.demo.consumer.ApplicationIntegrationTests]/[method:testConsume()]"/>
+    <testcase name="testValidateMessage" classname="com.iqb.demo.consumer.ApplicationIntegrationTests" time="0.003" displayname="testValidateMessage()" uniqueid="[engine:junit-jupiter]/[class:com.iqb.demo.consumer.ApplicationIntegrationTests]/[method:testValidateMessage()]"/>
+  </testsuite>
+</testrun>

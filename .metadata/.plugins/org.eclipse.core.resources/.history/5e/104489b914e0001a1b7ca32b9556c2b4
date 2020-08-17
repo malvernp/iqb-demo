@@ -1,0 +1,5 @@
+package com.iqb.demo.commons;
+
+public interface QueueConfigurations {
+
+}

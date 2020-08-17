@@ -1,0 +1,37 @@
+package com.example.demo;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.amqp.AmqpConnectException;
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.test.mock.mockito.MockBean;
+
+
+
+@SpringBootTest
+public class TestApplication {
+
+	@MockBean
+	private ConsoleHandler consoleHandler;
+
+	@Autowired
+	private MessageSender messageSender;
+
+//	@Autowired
+//	private Receiver receiver;
+
+	@Test
+	public void test() throws Exception {
+		try {
+			messageSender.validateConnection();
+		}
+		catch (AmqpConnectException e) {
+			e.printStackTrace();
+			// ignore - rabbit is not running
+		}
+	}
+
+}

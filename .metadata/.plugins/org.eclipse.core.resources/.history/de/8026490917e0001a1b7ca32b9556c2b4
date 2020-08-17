@@ -1,0 +1,20 @@
+package com.iqb.demo.consumer;
+
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
+import org.springframework.stereotype.Component;
+
+
+@Component
+public class TestSender {
+
+	private final RabbitTemplate rabbitTemplate;
+
+	public TestSender(MessageConsumer receiver, RabbitTemplate rabbitTemplate) {
+		this.rabbitTemplate = rabbitTemplate;
+	}
+
+	public void send(String message) throws Exception {
+		rabbitTemplate.convertAndSend(IqbDemoConsumerApplication.topicExchangeName, "foo.bar.baz",message);
+	}
+
+}

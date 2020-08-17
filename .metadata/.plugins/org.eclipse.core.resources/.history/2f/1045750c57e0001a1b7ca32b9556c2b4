@@ -1,0 +1,20 @@
+package com.example.demo;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class MessageSender {
+	
+	/**
+	 * a health check to validate RabbitMQ up and running
+	 * @throws Exception
+	 */
+	public void validateConnection() throws Exception {
+		String info = this.rabbitTemplate
+				.execute((channel) -> channel.getConnection().getServerProperties().get("version").toString());
+		System.out.println("RabbitMQ Version: "  + info);
+
+	}
+
+
+}

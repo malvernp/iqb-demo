@@ -1,0 +1,554 @@
+2020-08-17 00:45:15,358 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-08-17 00:51:46,179 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-08-17 00:52:10,751 [Worker-9: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.iqb.demo:iqb-demo-consumer:0.0.1-SNAPSHOT @ /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-consumer/pom.xml.
+2020-08-17 00:52:11,135 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /iqb-demo-consumer/src/main/java
+2020-08-17 00:52:11,136 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /iqb-demo-consumer/src/main/resources
+2020-08-17 00:52:11,136 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /iqb-demo-consumer/src/main/resources
+2020-08-17 00:52:11,137 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /iqb-demo-consumer/src/test/java
+2020-08-17 00:52:11,232 [Worker-9: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2020-08-17 00:52:12,202 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 00:52:12,204 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 00:52:12,214 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 00:52:12,216 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 00:52:12,216 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-consumer/src/test/resources
+2020-08-17 00:55:20,339 [Worker-9: Creating project "iqb-demo-commons"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT @ /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-commons/pom.xml.
+2020-08-17 00:55:20,518 [Worker-9: Creating project "iqb-demo-commons"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /iqb-demo-commons/src/main/java
+2020-08-17 00:55:20,518 [Worker-9: Creating project "iqb-demo-commons"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /iqb-demo-commons/src/main/resources
+2020-08-17 00:55:20,518 [Worker-9: Creating project "iqb-demo-commons"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /iqb-demo-commons/src/test/java
+2020-08-17 00:55:20,519 [Worker-9: Creating project "iqb-demo-commons"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /iqb-demo-commons/src/test/resources
+2020-08-17 00:55:20,701 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-17 00:55:20,703 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 00:55:20,704 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-17 00:55:20,704 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 00:56:39,624 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-17 00:56:39,629 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 00:56:39,630 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-17 00:56:39,630 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 00:56:39,659 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 00:56:39,660 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 00:56:39,660 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 00:56:39,661 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 00:56:39,662 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-consumer/src/test/resources
+2020-08-17 01:00:00,213 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-17 01:00:00,216 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:00:00,217 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-17 01:00:00,217 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:01:09,192 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-17 01:01:09,193 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:01:09,193 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-17 01:01:09,194 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:03:03,950 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:03:03,951 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 01:03:03,953 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:03:03,954 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:03:03,954 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-consumer/src/test/resources
+2020-08-17 01:03:40,664 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-17 01:03:40,665 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:03:40,667 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-17 01:03:40,667 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:04:25,484 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2020-08-17 01:04:46,596 [Worker-18: Launching Executing install in _Users_malvernpontius_develop_other_iqb-demo_iqb-demo-commons] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-commons
+2020-08-17 01:04:46,597 [Worker-18: Launching Executing install in _Users_malvernpontius_develop_other_iqb-demo_iqb-demo-commons] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install -Dstyle.color=always
+2020-08-17 01:04:50,277 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-17 01:04:50,278 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:04:50,279 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-17 01:04:50,280 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:07:08,193 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-17 01:07:08,195 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:07:08,195 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-17 01:07:08,196 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:07:21,364 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2020-08-17 01:07:35,665 [Worker-16: Launching Executing install in _Users_malvernpontius_develop_other_iqb-demo_iqb-demo-commons] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-commons
+2020-08-17 01:07:35,665 [Worker-16: Launching Executing install in _Users_malvernpontius_develop_other_iqb-demo_iqb-demo-commons] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install -Dstyle.color=always
+2020-08-17 01:07:49,109 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-17 01:07:49,110 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:07:49,111 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-17 01:07:49,111 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:12:39,037 [Worker-21: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.iqb.demo:iqb-demo-consumer:0.0.1-SNAPSHOT @ /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-consumer/pom.xml.
+2020-08-17 01:12:39,140 [Worker-21: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier  to /iqb-demo-commons/target/classes
+2020-08-17 01:12:39,268 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:12:39,270 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:12:39,270 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:12:39,271 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:12:39,272 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-consumer/src/test/resources
+2020-08-17 01:12:40,618 [Worker-21: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier  to /iqb-demo-commons/target/classes
+2020-08-17 01:12:40,627 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:12:40,628 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 01:12:40,636 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:12:40,636 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:12:40,637 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-consumer/src/test/resources
+2020-08-17 01:12:48,599 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2020-08-17 01:13:19,554 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-08-17 01:13:19,823 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.iqb.demo:iqb-demo-consumer:0.0.1-SNAPSHOT @ /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-consumer/pom.xml.
+2020-08-17 01:13:19,905 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier  to /iqb-demo-commons/target/classes
+2020-08-17 01:13:19,996 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /iqb-demo-consumer/src/main/java
+2020-08-17 01:13:19,997 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /iqb-demo-consumer/src/main/resources
+2020-08-17 01:13:19,997 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /iqb-demo-consumer/src/main/resources
+2020-08-17 01:13:19,997 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /iqb-demo-consumer/src/test/java
+2020-08-17 01:13:20,066 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2020-08-17 01:13:20,369 [Worker-23: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier  to /iqb-demo-commons/target/classes
+2020-08-17 01:13:20,384 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:13:20,385 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 01:13:20,394 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:13:20,395 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:13:20,395 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-consumer/src/test/resources
+2020-08-17 01:14:41,827 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:14:41,829 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 01:14:41,829 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:14:41,830 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:14:41,830 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-consumer/src/test/resources
+2020-08-17 01:15:08,177 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:15:08,178 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 01:15:08,178 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:15:08,180 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:15:08,180 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-consumer/src/test/resources
+2020-08-17 01:18:30,332 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-17 01:18:30,333 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:18:30,333 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-17 01:18:30,334 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:19:28,016 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:19:28,017 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 01:19:28,017 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:19:28,018 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:19:28,018 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-consumer/src/test/resources
+2020-08-17 01:19:32,674 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:19:32,674 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 01:19:32,674 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:19:32,675 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:19:32,675 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-consumer/src/test/resources
+2020-08-17 01:20:13,419 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:20:13,419 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:20:13,419 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:20:13,420 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:20:13,420 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-consumer/src/test/resources
+2020-08-17 01:20:36,604 [Worker-6: Launching ApplicationIntegrationTests] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 01:20:36,692 [Worker-6: Launching ApplicationIntegrationTests] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 01:27:24,244 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:27:24,245 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 01:27:24,246 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:27:24,247 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:27:24,247 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-consumer/src/test/resources
+2020-08-17 01:35:52,944 [Worker-23: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.iqb.demo:iqb-demo-producer:0.0.1-SNAPSHOT @ /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/pom.xml.
+2020-08-17 01:35:53,204 [Worker-23: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /iqb-demo-producer/src/main/java
+2020-08-17 01:35:53,204 [Worker-23: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /iqb-demo-producer/src/main/resources
+2020-08-17 01:35:53,209 [Worker-23: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /iqb-demo-producer/src/main/resources
+2020-08-17 01:35:53,218 [Worker-23: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /iqb-demo-producer/src/test/java
+2020-08-17 01:35:53,477 [Worker-23: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2020-08-17 01:35:53,478 [Worker-23: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-08-17 01:35:53,688 [Worker-23: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.iqb.demo:iqb-demo-producer:0.0.1-SNAPSHOT @ /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/pom.xml.
+2020-08-17 01:35:53,787 [Worker-23: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /iqb-demo-producer/src/main/java
+2020-08-17 01:35:53,788 [Worker-23: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /iqb-demo-producer/src/main/resources
+2020-08-17 01:35:53,789 [Worker-23: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /iqb-demo-producer/src/main/resources
+2020-08-17 01:35:53,791 [Worker-23: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /iqb-demo-producer/src/test/java
+2020-08-17 01:35:53,893 [Worker-23: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2020-08-17 01:35:54,208 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:35:54,208 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 01:35:54,208 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:35:54,210 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:35:54,210 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 01:36:55,504 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:36:55,504 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 01:36:55,505 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:36:55,506 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:36:55,506 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 01:37:26,206 [Worker-31: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.iqb.demo:iqb-demo-producer:0.0.1-SNAPSHOT @ /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/pom.xml.
+2020-08-17 01:37:26,308 [Worker-31: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier  to /iqb-demo-commons/target/classes
+2020-08-17 01:37:26,359 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:37:26,359 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:37:26,359 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:37:26,360 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:37:26,360 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 01:37:27,665 [Worker-30: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier  to /iqb-demo-commons/target/classes
+2020-08-17 01:37:27,673 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:37:27,673 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 01:37:27,674 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:37:27,675 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:37:27,675 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 01:38:19,381 [Worker-29: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.iqb.demo:iqb-demo-producer:0.0.1-SNAPSHOT @ /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/pom.xml.
+2020-08-17 01:38:19,419 [Worker-29: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier  to /iqb-demo-commons/target/classes
+2020-08-17 01:38:19,464 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:38:19,465 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:38:19,465 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:38:19,465 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:38:19,466 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 01:38:20,693 [Worker-34: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier  to /iqb-demo-commons/target/classes
+2020-08-17 01:38:20,700 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:38:20,700 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 01:38:20,701 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:38:20,702 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:38:20,702 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 01:39:03,009 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:39:03,010 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 01:39:03,010 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:39:03,011 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:39:03,011 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 01:39:27,921 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:39:27,921 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 01:39:27,922 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:39:27,923 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:39:27,923 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-consumer/src/test/resources
+2020-08-17 01:39:41,152 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:39:41,152 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:39:41,152 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:39:41,154 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:39:41,154 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-consumer/src/test/resources
+2020-08-17 01:47:34,396 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:47:34,397 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 01:47:34,397 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:47:34,398 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:47:34,398 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 01:47:47,915 [Worker-35: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 01:47:47,951 [Worker-35: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 01:47:47,985 [Worker-35: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 01:50:49,198 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:50:49,199 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 01:50:49,199 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:50:49,200 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:50:49,200 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 01:51:04,222 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:51:04,223 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 01:51:04,223 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 01:51:04,224 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 01:51:04,224 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 01:51:12,705 [Worker-39: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 01:51:12,742 [Worker-39: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 01:51:12,773 [Worker-39: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 01:53:27,309 [Worker-39: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 01:53:27,345 [Worker-39: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 01:53:27,377 [Worker-39: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 01:54:22,714 [Worker-39: Launching iqb-demo-consumer - IqbDemoConsumerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 01:54:22,749 [Worker-39: Launching iqb-demo-consumer - IqbDemoConsumerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 01:54:22,780 [Worker-39: Launching iqb-demo-consumer - IqbDemoConsumerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 01:55:12,726 [Worker-39: Launching iqb-demo-consumer - IqbDemoConsumerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 01:55:12,758 [Worker-39: Launching iqb-demo-consumer - IqbDemoConsumerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 01:55:12,786 [Worker-39: Launching iqb-demo-consumer - IqbDemoConsumerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 01:56:34,558 [Worker-41: Launching iqb-demo-consumer - IqbDemoConsumerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 01:56:34,593 [Worker-41: Launching iqb-demo-consumer - IqbDemoConsumerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 01:56:34,630 [Worker-41: Launching iqb-demo-consumer - IqbDemoConsumerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 02:04:27,331 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 02:04:27,332 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 02:04:27,332 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 02:04:27,333 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 02:04:27,333 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-consumer/src/test/resources
+2020-08-17 02:05:01,642 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2020-08-17 02:05:18,416 [Worker-41: Launching iqb-demo-consumer] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-consumer
+2020-08-17 02:05:18,417 [Worker-41: Launching iqb-demo-consumer] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B  -Dstyle.color=always
+2020-08-17 02:05:18,515 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 02:05:18,515 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 02:05:18,515 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 02:05:18,516 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 02:05:18,516 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-consumer/src/test/resources
+2020-08-17 02:05:46,925 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2020-08-17 02:06:03,149 [Worker-44: Launching iqb-demo-consumer] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-consumer
+2020-08-17 02:06:03,151 [Worker-44: Launching iqb-demo-consumer] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B build -Dstyle.color=always
+2020-08-17 02:06:54,605 [Worker-44: Launching Executing install in _Users_malvernpontius_develop_other_iqb-demo_iqb-demo-consumer] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-consumer
+2020-08-17 02:06:54,606 [Worker-44: Launching Executing install in _Users_malvernpontius_develop_other_iqb-demo_iqb-demo-consumer] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install -Dstyle.color=always
+2020-08-17 02:06:54,606 [Worker-44: Launching Executing install in _Users_malvernpontius_develop_other_iqb-demo_iqb-demo-consumer] WARN  o.e.m.i.l.MavenLaunchExtensionsSupport - Unknown or unsupported source locator org.eclipse.jdt.internal.launching.sourcelookup.advanced.AdvancedSourceLookupDirector
+2020-08-17 02:07:01,381 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 02:07:01,382 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 02:07:01,383 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 02:07:01,384 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 02:07:01,384 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-consumer/src/test/resources
+2020-08-17 02:07:21,321 [Worker-44: Launching Executing install in _Users_malvernpontius_develop_other_iqb-demo_iqb-demo-commons] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-commons
+2020-08-17 02:07:21,321 [Worker-44: Launching Executing install in _Users_malvernpontius_develop_other_iqb-demo_iqb-demo-commons] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install -Dstyle.color=always
+2020-08-17 02:07:22,960 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-17 02:07:22,961 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 02:07:22,962 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-17 02:07:22,962 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 02:07:32,470 [Worker-43: Launching Executing install in _Users_malvernpontius_develop_other_iqb-demo_iqb-demo-consumer] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-consumer
+2020-08-17 02:07:32,471 [Worker-43: Launching Executing install in _Users_malvernpontius_develop_other_iqb-demo_iqb-demo-consumer] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install -Dstyle.color=always
+2020-08-17 02:08:10,195 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 02:08:10,195 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 02:08:10,196 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 02:08:10,197 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 02:08:10,197 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-consumer/src/test/resources
+2020-08-17 02:10:03,038 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 02:10:03,038 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 02:10:03,038 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 02:10:03,039 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 02:10:03,039 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-consumer/src/test/resources
+2020-08-17 02:12:19,421 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 02:12:19,422 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 02:12:19,422 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 02:12:19,423 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 02:12:19,423 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-consumer/src/test/resources
+2020-08-17 02:33:20,121 [Worker-46: Launching Executing install in _Users_malvernpontius_develop_other_iqb-demo_iqb-demo-producer] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer
+2020-08-17 02:33:20,126 [Worker-46: Launching Executing install in _Users_malvernpontius_develop_other_iqb-demo_iqb-demo-producer] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B install -Dstyle.color=always
+2020-08-17 02:33:44,550 [Worker-48: Launching iqb-demo-consumer] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-consumer
+2020-08-17 02:33:44,551 [Worker-48: Launching iqb-demo-consumer] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B build -Dstyle.color=always
+2020-08-17 02:33:58,082 [Worker-49: Launching Executing install in _Users_malvernpontius_develop_other_iqb-demo_iqb-demo-producer] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer
+2020-08-17 02:33:58,082 [Worker-49: Launching Executing install in _Users_malvernpontius_develop_other_iqb-demo_iqb-demo-producer] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B install -Dstyle.color=always
+2020-08-17 02:34:50,967 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 02:34:50,967 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 02:34:50,967 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 02:34:50,969 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 02:34:50,969 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 02:35:29,613 [Worker-49: Launching Executing install in _Users_malvernpontius_develop_other_iqb-demo_iqb-demo-producer] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer
+2020-08-17 02:35:29,613 [Worker-49: Launching Executing install in _Users_malvernpontius_develop_other_iqb-demo_iqb-demo-producer] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B install -Dstyle.color=always
+2020-08-17 02:35:33,253 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 02:35:33,253 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 02:35:33,254 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 02:35:33,256 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 02:35:33,256 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 02:36:16,429 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 02:36:16,429 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 02:36:16,429 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 02:36:16,430 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 02:36:16,430 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 02:36:21,671 [Worker-49: Launching Executing install in _Users_malvernpontius_develop_other_iqb-demo_iqb-demo-producer] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer
+2020-08-17 02:36:21,671 [Worker-49: Launching Executing install in _Users_malvernpontius_develop_other_iqb-demo_iqb-demo-producer] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B install -Dstyle.color=always
+2020-08-17 02:36:24,986 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 02:36:24,987 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 02:36:24,987 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 02:36:24,988 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 02:36:24,988 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 02:41:32,759 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 02:41:32,760 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 02:41:32,761 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 02:41:32,779 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 02:41:32,779 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 02:41:43,614 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 02:41:43,614 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 02:41:43,615 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 02:41:43,617 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 02:41:43,617 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 02:42:53,877 [Worker-51: Launching Executing install in _Users_malvernpontius_develop_other_iqb-demo_iqb-demo-producer] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer
+2020-08-17 02:42:53,877 [Worker-51: Launching Executing install in _Users_malvernpontius_develop_other_iqb-demo_iqb-demo-producer] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B install -Dstyle.color=always
+2020-08-17 02:42:57,135 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 02:42:57,135 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 02:42:57,136 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 02:42:57,137 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 02:42:57,137 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 02:47:07,800 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 02:47:07,801 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 02:47:07,801 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 02:47:07,802 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 02:47:07,802 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 08:11:32,517 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:11:32,522 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 08:11:32,524 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 08:11:32,525 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:11:32,525 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 08:12:09,007 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:12:09,007 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 08:12:09,007 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 08:12:09,008 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:12:09,008 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 08:12:31,966 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:12:31,967 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 08:12:31,968 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 08:12:31,969 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:12:31,969 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 08:12:41,709 [Worker-63: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 08:12:41,757 [Worker-63: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 08:12:41,803 [Worker-63: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 08:16:53,530 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:16:53,531 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 08:16:53,532 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 08:16:53,534 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:16:53,534 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 08:16:59,137 [Worker-65: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 08:16:59,174 [Worker-65: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 08:16:59,204 [Worker-65: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 08:17:13,320 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:17:13,321 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 08:17:13,321 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 08:17:13,323 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:17:13,323 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 08:17:20,236 [Worker-71: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 08:17:20,270 [Worker-71: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 08:17:20,300 [Worker-71: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 08:17:34,073 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:17:34,074 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 08:17:34,075 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 08:17:34,076 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:17:34,076 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 08:17:58,911 [Worker-69: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 08:17:58,993 [Worker-69: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 08:17:59,038 [Worker-69: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 08:29:43,655 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:29:43,659 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 08:29:43,660 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 08:29:43,664 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:29:43,664 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 08:29:50,548 [Worker-76: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 08:29:50,633 [Worker-76: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 08:29:50,717 [Worker-76: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 08:38:07,261 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:38:07,262 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 08:38:07,263 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 08:38:07,263 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:38:07,263 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 08:38:10,305 [Worker-85: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 08:38:10,340 [Worker-85: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 08:38:10,380 [Worker-85: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 08:39:05,504 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:39:05,505 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 08:39:05,505 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 08:39:05,506 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:39:05,506 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 08:41:38,142 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:41:38,142 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 08:41:38,143 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 08:41:38,144 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:41:38,144 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 08:41:50,490 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:41:50,491 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 08:41:50,492 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 08:41:50,494 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:41:50,494 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 08:41:57,034 [Worker-85: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 08:41:57,075 [Worker-85: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 08:41:57,106 [Worker-85: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 08:43:36,629 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:43:36,630 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 08:43:36,631 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 08:43:36,632 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:43:36,632 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 08:44:02,701 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:44:02,702 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 08:44:02,702 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 08:44:02,703 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:44:02,703 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 08:44:15,758 [Worker-81: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 08:44:15,801 [Worker-81: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 08:44:15,835 [Worker-81: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 08:46:33,585 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:46:33,585 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 08:46:33,586 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 08:46:33,587 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:46:33,588 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 08:49:41,455 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:49:41,455 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 08:49:41,456 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 08:49:41,457 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:49:41,457 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 08:50:27,807 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:50:27,807 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 08:50:27,809 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 08:50:27,810 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:50:27,811 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 08:55:51,632 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:55:51,633 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 08:55:51,634 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 08:55:51,635 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:55:51,635 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 08:57:54,967 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:57:54,967 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 08:57:54,967 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 08:57:54,968 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:57:54,968 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 08:58:26,569 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:58:26,570 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 08:58:26,571 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 08:58:26,571 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:58:26,571 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 08:58:57,408 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:58:57,408 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 08:58:57,408 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 08:58:57,409 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:58:57,409 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 08:59:20,766 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:59:20,766 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 08:59:20,766 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 08:59:20,767 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:59:20,767 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 08:59:25,512 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:59:25,512 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 08:59:25,513 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 08:59:25,513 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 08:59:25,513 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 09:00:00,850 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 09:00:00,850 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 09:00:00,851 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 09:00:00,851 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 09:00:00,851 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 09:00:13,532 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 09:00:13,532 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 09:00:13,533 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 09:00:13,534 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 09:00:13,534 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 09:00:47,392 [Worker-84: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 09:00:47,392 [Worker-84: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 09:00:47,392 [Worker-84: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 09:00:47,393 [Worker-84: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 09:00:47,393 [Worker-84: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 09:00:48,733 [Worker-84: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 09:00:48,768 [Worker-84: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 09:00:48,800 [Worker-84: Launching iqb-demo-producer - IqbDemoProducerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 09:04:47,850 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 09:04:47,850 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 09:04:47,850 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 09:04:47,851 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 09:04:47,851 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 09:04:55,870 [Worker-83: Launching TestApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 09:04:55,945 [Worker-83: Launching TestApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 09:09:02,030 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 09:09:02,030 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 09:09:02,031 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 09:09:02,032 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 09:09:02,032 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 09:09:05,462 [Worker-76: Launching TestApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 09:09:05,562 [Worker-76: Launching TestApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 09:11:05,888 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 09:11:05,888 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 09:11:05,889 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 09:11:05,889 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 09:11:05,889 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 09:11:12,658 [Worker-76: Launching TestApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 09:11:12,723 [Worker-76: Launching TestApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 09:11:42,957 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 09:11:42,958 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 09:11:42,958 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 09:11:42,959 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 09:11:42,959 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 09:11:53,103 [Worker-88: Launching TestApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 09:11:53,169 [Worker-88: Launching TestApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 09:12:15,392 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 09:12:15,393 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 09:12:15,393 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 09:12:15,394 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 09:12:15,394 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 09:12:22,589 [Worker-84: Launching TestApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 09:12:22,655 [Worker-84: Launching TestApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 09:13:26,281 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 09:13:26,281 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 09:13:26,282 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 09:13:26,282 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 09:13:26,282 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 09:13:33,466 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 09:13:33,466 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 09:13:33,466 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 09:13:33,467 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 09:13:33,467 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 09:13:37,405 [Worker-87: Launching TestApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 09:13:37,474 [Worker-87: Launching TestApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/iqb-demo-commons: com.iqb.demo:iqb-demo-commons:0.0.1-SNAPSHOT with classifier null to /iqb-demo-commons/target/classes
+2020-08-17 09:13:52,016 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 09:13:52,016 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 09:13:52,016 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 09:13:52,017 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 09:13:52,017 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 09:14:26,082 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 09:14:26,082 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 09:14:26,082 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 09:14:26,083 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 09:14:26,083 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 09:15:37,657 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 09:15:37,657 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 09:15:37,658 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 09:15:37,659 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 09:15:37,659 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 09:15:58,454 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 09:15:58,455 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 09:15:58,455 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 09:15:58,456 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 09:15:58,456 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 09:16:16,362 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 09:16:16,362 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-17 09:16:16,363 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 09:16:16,364 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-17 09:16:16,364 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/malvernpontius/develop/other/iqb-demo/iqb-demo-producer/src/test/resources
+2020-08-17 09:17:42,875 [Worker-83: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-17 09:17:42,878 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-17 09:17:42,879 [Worker-83: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-17 09:17:42,879 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

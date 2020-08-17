@@ -1,0 +1,53 @@
+package com.iqb.demo.consumer;
+
+import org.springframework.amqp.core.Binding;
+import org.springframework.amqp.core.BindingBuilder;
+import org.springframework.amqp.core.Queue;
+import org.springframework.amqp.core.TopicExchange;
+import org.springframework.amqp.rabbit.connection.ConnectionFactory;
+import org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer;
+import org.springframework.amqp.rabbit.listener.adapter.MessageListenerAdapter;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+
+import com.iqb.demo.commons.QueueConfigurations;
+
+@SpringBootApplication
+public class IqbDemoConsumerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(IqbDemoConsumerApplication.class, args);
+	}
+	
+	  @Bean
+	  Queue queue() {
+	    return new Queue(QueueConfigurations.DEMO_QUEUE, false);
+	  }
+
+	  @Bean
+	  TopicExchange exchange() {
+	    return new TopicExchange(QueueConfigurations.DEMO_TOPIC);
+	  }
+
+	  @Bean
+	  Binding binding(Queue queue, TopicExchange exchange) {
+	    return BindingBuilder.bind(queue).to(exchange).with("com.iqb.demo.route.#");
+	  }
+
+	  @Bean
+	  SimpleMessageListenerContainer container(ConnectionFactory connectionFactory,
+	      MessageListenerAdapter listenerAdapter) {
+	    SimpleMessageListenerContainer container = new SimpleMessageListenerContainer();
+	    container.setConnectionFactory(connectionFactory);
+	    container.setQueueNames(QueueConfigurations.DEMO_QUEUE);
+	    container.setMessageListener(listenerAdapter);
+	    return container;
+	  }
+
+	  @Bean
+	  MessageListenerAdapter listenerAdapter(MessageConsumer messageHandler) {
+	    return new MessageListenerAdapter(messageHandler, "handleMessage");
+	  }
+
+}

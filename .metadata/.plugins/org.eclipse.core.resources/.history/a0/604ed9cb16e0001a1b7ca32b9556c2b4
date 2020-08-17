@@ -1,0 +1,8 @@
+package com.iqb.demo.commons;
+
+public interface QueueConfigurations {
+
+	public static final String DEMO_TOPIC = "iqb-demo-topic";
+	public static final String DEMO_QUEUE = "iqb-demo-queue";
+
+}

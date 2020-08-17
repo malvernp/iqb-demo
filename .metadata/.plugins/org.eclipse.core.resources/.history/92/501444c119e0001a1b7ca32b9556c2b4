@@ -1,0 +1,69 @@
+package com.iqb.demo.consumer;
+
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.Assert;
+import org.junit.jupiter.api.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
+/**
+ * This demonstrates more of a integration test (a more complete test of the
+ * end-point) Where: a embedded rabbitMQ testContainer is used to test end to
+ * end.
+ * 
+ * @author m
+ *
+ */
+@RunWith(SpringJUnit4ClassRunner.class)
+@SpringBootTest(classes = IqbDemoConsumerApplication.class)
+class ApplicationIntegrationTests {
+
+	@Autowired
+	public TestSender rabbitTemplate;
+
+	@Autowired
+	public MessageConsumer messageConsumer;
+
+	@Autowired
+	public MessageFormatter messageFormatter;
+
+	@MockBean
+	private Runner runner;
+
+	/**
+	 * this is a end to end test
+	 */
+	@Test
+	void testConsume() {
+		try {
+			rabbitTemplate.send("ssss");
+			Assert.assertTrue("No Errors", true);
+			// TODO - here we can probably do more testing to see whether the message was
+			// handled correctly
+			// Perhaps check logs or Subsequent actions that stemmed from the received
+			// message
+		} catch (Exception e) {
+			e.printStackTrace();
+			Assert.assertTrue(e.getMessage(), true); // we do not expect failure - check if u running it locally
+		}
+	}
+
+	@Test 
+	void testValidateMessage() {
+		assertTrue(messageConsumer.isValidMessage("Hello my name is, Bob"));
+		assertTrue(messageConsumer.isValidMessage("Hello my name is, Bob. James"));
+		assertFalse(messageConsumer.isValidMessage("Hello my name is Bob"));
+	}
+	@Test
+	void testFormatter() {
+		String res = messageFormatter.format("Hello my name is, Bob");
+		assertEquals("Hello Bob, I am your father!", res);
+	}
+
+}

@@ -1,0 +1,61 @@
+package com.example.demo;
+
+import java.util.Scanner;
+
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
+
+import com.iqb.demo.commons.QueueConfigurations;
+
+@Component
+public class ConsoleHandler implements CommandLineRunner {
+
+	private final RabbitTemplate rabbitTemplate;
+
+	public ConsoleHandler(RabbitTemplate rabbitTemplate) {
+		this.rabbitTemplate = rabbitTemplate;
+	}
+
+	@Override
+	public void run(String... args) throws Exception {
+		try {
+			validateConnection();
+			
+			Scanner scanner = new Scanner(System.in);
+
+			do {
+				System.out.println("Enter a name: ");
+				String line = scanner.nextLine();
+				sendMessage(line);
+			} while (true);
+
+		} catch (Exception e) {
+			System.out.println("RabbitMQ running? - also check application.properties");
+			System.out.println(e.getMessage());
+		}
+
+
+	}
+
+	/**
+	 * a health check to validate RabbitMQ up and running
+	 * @throws Exception
+	 */
+	private void validateConnection() throws Exception {
+		String info = this.rabbitTemplate
+				.execute((channel) -> channel.getConnection().getServerProperties().get("version").toString());
+		System.out.println("RabbitMQ Version: "  + info);
+
+	}
+
+	private void sendMessage(String name) {
+		String message = String.format("Hello my name is, %s", name);
+
+		System.out.println("Sending message: " + message);
+
+		rabbitTemplate.convertAndSend(QueueConfigurations.DEMO_TOPIC, QueueConfigurations.DEMO_ROUTE_KEY, message);
+
+	}
+
+}
