@@ -95,6 +95,10 @@ On the consumer the formatting and validation also tested
 
 Docker configs also added for producer. Usage not covered for this excerise 
 
+## TODO
+* dynamic props
+* cleanup .gitignore
+
 ## Built With
 
 * [SpringBoot](https://spring.io/projects/spring-boot) - Microservice
